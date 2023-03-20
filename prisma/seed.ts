@@ -36,14 +36,14 @@ const main = async () => {
                             create: {
                                 name: product.category,
                                 createdAt: randBetweenDate({
-                                    from: new Date("10/01/2023"),
+                                    from: new Date("10/06/2020"),
                                     to: new Date(),
                                 }),
                             },
                         },
                     },
                     createdAt: randBetweenDate({
-                        from: new Date("10/02/2023"),
+                        from: new Date("10/07/2020"),
                         to: new Date(),
                     }),
                 },
